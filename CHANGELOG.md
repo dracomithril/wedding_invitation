@@ -1,3 +1,17 @@
+## [0.2.1](https://github.com/dracomithril/wedding_invite/compare/v0.2.0...v0.2.1) (2020-01-11)
+
+
+### feat
+
+* add couple.png ([a580074](https://github.com/dracomithril/wedding_invite/commit/a5800744f898dfce7f603d602bec0f6a0cad2285))
+
+### fix
+
+* delete images in background ([262cf1d](https://github.com/dracomithril/wedding_invite/commit/262cf1d3f3b3e949b9babc50844741a10790632c))
+* manifest page naming ([3b44e45](https://github.com/dracomithril/wedding_invite/commit/3b44e45f78f1fb772f8bc5ebd02d6807b3fe6929))
+
+
+
 # [0.2.0](https://github.com/dracomithril/wedding_invite/compare/v0.1.0...v0.2.0) (2020-01-11)
 
 
