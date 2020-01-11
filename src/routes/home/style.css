@@ -7,17 +7,6 @@
 	justify-content: center;
 	align-items: center;
 	background-color: antiquewhite;
-	background-image: url("/assets/images/ozdobnik.png"),
-	url("/assets/images/ozdobnik.png"),
-	url("/assets/images/ozdobnik.png"),
-	url("/assets/images/ozdobnik.png");
-	background-position:
-			top left,
-			top right,
-			bottom left,
-			bottom right;
-	background-repeat:no-repeat;
-	background-attachment:fixed;
 }
 
 .image {

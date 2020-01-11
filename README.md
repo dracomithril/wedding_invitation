@@ -1,4 +1,5 @@
 # wedding_invite
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5d5e8581-8f09-412d-aea9-44dd8d46722a/deploy-status)](https://app.netlify.com/sites/clever-shaw-ce7c12/deploys)
 
 ## CLI Commands
 

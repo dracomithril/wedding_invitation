@@ -3,7 +3,7 @@ import { Link } from 'preact-router/match';
 import style from './style.css';
 
 const Header = () => (
-	<header class={style.header}>
+	<header className={style.header}>
 		<h1>Wedding App</h1>
 		<nav>
 			<Link activeClassName={style.active} href="/">Home</Link>
