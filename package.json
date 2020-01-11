@@ -7,6 +7,7 @@
     "start": "per-env",
     "start:production": "npm run -s serve",
     "start:development": "npm run -s dev",
+    "prebuild": "rm -rf ./build",
     "build": "preact build",
     "serve": "preact build && serve build --single",
     "dev": "preact watch",
