@@ -1,3 +1,12 @@
+## [0.3.4](https://github.com/dracomithril/wedding_invite/compare/v0.3.3...v0.3.4) (2020-02-02)
+
+
+### fix
+
+* add font weight ([b7d8309](https://github.com/dracomithril/wedding_invite/commit/b7d830984fe76df89ca125b329049191cae700aa))
+
+
+
 ## [0.3.3](https://github.com/dracomithril/wedding_invite/compare/v0.3.2...v0.3.3) (2020-02-02)
 
 
