@@ -16,12 +16,16 @@
     font-size: xx-large;
     font-family: 'Helvetica Neue', arial, sans-serif;
 }
+.day {
+    font-weight: bolder;
+    font-size: xx-large;
+}
 
 .time {
     text-transform: uppercase;
     color: forestgreen;
-    font-size: large;
-	font-family: 'Russo One', sans-serif;
+    font-size: larger;
+    font-family: 'Black Ops One', cursive;
 }
 
 .stage1 {
@@ -55,7 +59,7 @@
 }
 
 .invite {
-    width: 400px;
+    font-size: larger;
     text-align: center;
 }
 
@@ -85,10 +89,10 @@
 .guests {
 	color: forestgreen;
     display: flex;
+    font-size: x-large;
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    text-transform: capitalize;
 }
 
 hr.vertical {
