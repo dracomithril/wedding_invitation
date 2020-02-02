@@ -2,7 +2,7 @@ import { Component } from 'preact';
 import { encode } from '../../utils/encoder';
 import style from './guests.css';
 
-const getGuestLink = (code) => `${location.host}/${code}`;
+const getGuestLink = (code) => `${location.origin}/${code}`;
 
 class Guests extends Component {
 	state = {
