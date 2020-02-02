@@ -1,3 +1,12 @@
+## [0.3.2](https://github.com/dracomithril/wedding_invite/compare/v0.3.1...v0.3.2) (2020-02-02)
+
+
+### fix
+
+* netlify preact router try 2 ([842013a](https://github.com/dracomithril/wedding_invite/commit/842013a0151761a3ee6eeb7e002d7e4d39f7cf30))
+
+
+
 ## [0.3.1](https://github.com/dracomithril/wedding_invite/compare/v0.3.0...v0.3.1) (2020-02-02)
 
 
