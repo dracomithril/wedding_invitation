@@ -1,3 +1,12 @@
+# [0.3.0](https://github.com/dracomithril/wedding_invite/compare/v0.2.1...v0.3.0) (2020-02-02)
+
+
+### feat
+
+* working on styling, added quest specific logic ([4472da6](https://github.com/dracomithril/wedding_invite/commit/4472da6823e21e69a85ceeac99520a9679641f7d))
+
+
+
 ## [0.2.1](https://github.com/dracomithril/wedding_invite/compare/v0.2.0...v0.2.1) (2020-01-11)
 
 
