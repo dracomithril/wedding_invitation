@@ -9,6 +9,7 @@
     "start:development": "npm run -s dev",
     "prebuild": "rm -rf ./build",
     "build": "preact build",
+    "postbuild": "cp _redirects ./build/",
     "serve": "preact build && serve build --single",
     "dev": "preact watch",
     "lint": "eslint src",
