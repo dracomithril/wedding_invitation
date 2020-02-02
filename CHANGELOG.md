@@ -1,3 +1,13 @@
+## [0.3.5](https://github.com/dracomithril/wedding_invite/compare/v0.3.4...v0.3.5) (2020-02-02)
+
+
+### feat
+
+* add svg for church and wine glass ([c6f3a37](https://github.com/dracomithril/wedding_invite/commit/c6f3a37a698149038889a1d26644eba299f381e3))
+* change styling, update font ([b3504f8](https://github.com/dracomithril/wedding_invite/commit/b3504f8fc0ed5623dcc70ea0159328ae878818bc))
+
+
+
 ## [0.3.4](https://github.com/dracomithril/wedding_invite/compare/v0.3.3...v0.3.4) (2020-02-02)
 
 
