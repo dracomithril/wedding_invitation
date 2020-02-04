@@ -2,7 +2,8 @@ import style from './home.css';
 import { WeddingDirections } from './wedding_directions';
 import { Header } from './header';
 import { Invitation } from './invitation';
-import Icon from  '../../components/Icons';
+import { When } from './when';
+import { Place } from './pleace';
 
 const template = {
 	title: 'Zaproszenie',
@@ -27,20 +28,6 @@ const template = {
 		}
 	}
 };
-
-function When({ day, date, hour }) {
-	return (<div className={`${style.details_item} ${style.time}`}>
-		<span className={style.day}>{day}</span>
-		<span>{date}</span>
-		<span>{hour}</span>
-	</div>);
-}
-const Place = ({ place, name }) => (
-	<div className={style.details_item}>
-		<a href={place.url} target="_blank" rel="noopener noreferrer"><Icon name={name} /></a>
-		<span>{place.name}</span>
-	</div>
-);
 
 const Home = ({ guests }) => (
 	<div className={style.home}>
