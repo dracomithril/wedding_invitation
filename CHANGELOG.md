@@ -1,3 +1,13 @@
+# [0.4.0](https://github.com/dracomithril/wedding_invite/compare/v0.3.5...v0.4.0) (2020-02-04)
+
+
+### feat
+
+* add svg icons, more separation ([2dafb71](https://github.com/dracomithril/wedding_invite/commit/2dafb71c1bc521a2e2f334786e7ad2d8f676a66c))
+* split home into files, refactor, change layout ([e9aee81](https://github.com/dracomithril/wedding_invite/commit/e9aee8170fb0ad4e91d9a8f6f8b352c91498dd10))
+
+
+
 ## [0.3.5](https://github.com/dracomithril/wedding_invite/compare/v0.3.4...v0.3.5) (2020-02-02)
 
 
