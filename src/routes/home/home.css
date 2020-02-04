@@ -100,3 +100,9 @@ hr.vertical {
     border-right: 1px solid black;
     align-self: stretch;
 }
+
+hr.horizontal {
+    border: 1px solid transparent;
+    border-bottom: 1px solid black;
+    align-self: stretch;
+}

@@ -31,25 +31,26 @@ class Guests extends Component {
 
 	render(props, state) {
 		const { guestList, result } = state;
-		return (<div>
-			<span>
+		return (
+			<div>
+				<span>
 				lista gości oddzielona nowymi liniami
-			</span>
-			<textarea
-				className={style.list}
-				value={guestList.join('\n')}
-				onChange={this.handleDescriptionChange}
-			/>
-			<span>🧾{guestList.length}</span>
-			<button type="button" onClick={this.handleLinkCreation}>utwórz</button>
-			<ol>
-				{result.map(([guest, code, link]) => (
-					<li key={code} >
-						<span>{guest}</span>
-						<a href={link} target="_blank" rel="noopener noreferrer">{link}</a>
-					</li>))}
-			</ol>
-		</div>);
+				</span>
+				<textarea
+					className={style.list}
+					value={guestList.join('\n')}
+					onChange={this.handleDescriptionChange}
+				/>
+				<span>🧾{guestList.length}</span>
+				<button type="button" onClick={this.handleLinkCreation}>utwórz</button>
+				<ol>
+					{result.map(([guest, code, link]) => (
+						<li key={code} >
+							<span>{guest}</span>
+							<a href={link} target="_blank" rel="noopener noreferrer">{link}</a>
+						</li>))}
+				</ol>
+			</div>);
 	}
 }
 
