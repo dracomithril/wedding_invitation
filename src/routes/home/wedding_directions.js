@@ -1,4 +1,5 @@
-import Icon from '../../components/Icons';
+import RoadMap from '../../assets/svg/roadmap.svg';
+import style from './home.css';
 
 const mapToCoordinates = (church, party) => () => {
 	const churchLoc = church.name.replace(' ', '+');
@@ -13,10 +14,10 @@ const mapToCoordinates = (church, party) => () => {
 export const WeddingDirections = ({ locations }) => {
 	const { church, party } = locations;
 	return (
-		<div>
-			<button type="button" onClick={mapToCoordinates(church, party)}>
-				<Icon name={'roadmap'} />
+		<>
+			<button type="button" className={style.directions__btn} onClick={mapToCoordinates(church, party)}>
+				<RoadMap style={{ height: 100 }} />
 			</button>
-		</div>
+		</>
 	);
 };

@@ -16,55 +16,48 @@
     font-size: xx-large;
     font-family: 'Helvetica Neue', arial, sans-serif;
 }
-.day {
-    font-weight: bolder;
-    font-size: xx-large;
-}
 
-.time {
-    text-transform: uppercase;
-    color: forestgreen;
-    font-size: larger;
-    font-family: 'Black Ops One', cursive;
-}
-
-.stage1 {
-	padding-top: 10px;
+.header {
     display: flex;
     justify-content: center;
     flex-flow: column;
     align-items: center;
 	width: 100%;
 	height: 375px;
-}
-
-.stage1::before {
-    content: "";
-    float: left;
     background-size: contain;
-	position: absolute;
+    background-image: url("/assets/images/background2.png");
     background-repeat: no-repeat;
-    mix-blend-mode: darken;
-	background-position-y: -15px;
-	background-position-x: center;
-	width: 100%;
-	height: 500px;
-    margin: 0 5px 0 0;
-    background-image: url("/assets/images/background.jpg");
+    background-position-y: center;
+    background-position-x: center;
 }
 
-.stage1 > span {
-	line-height: 1.5em;
-	font-size: 24px;
+.header .names {
+    line-height: 1.5em;
+    font-size: 27px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .invite {
-    font-size: larger;
+    font-size: 20px;
     text-align: center;
 }
 
-.details {
+.invite .guests {
+    color: forestgreen;
     display: flex;
+    font-size: 25px;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.details {
+    margin: 10px 0;
+    display: flex;
+    width: 375px;
     word-wrap: break-spaces;
     justify-content: space-between;
     align-items: center;
@@ -74,34 +67,68 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    padding: 1em;
-    max-width: 150px;
     text-align: center;
     justify-content: space-between;
 }
 
+.place {
+    padding: 5px;
+    height: 87px;
+    font-family: 'Charm', cursive;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 27px;
+    text-align: center;
+    color: #707070;
+    flex-flow: row;
+}
+
+.church {
+
+}
+
 .details_item a {
+    margin-right: 3px;
 	color: black;
 	text-decoration: underline;
 	font-size: 1.3em;
 }
 
-.guests {
-	color: forestgreen;
-    display: flex;
-    font-size: x-large;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
+.directions__btn {
+    border: transparent;
+    background-color: transparent;
 }
 
-hr.vertical {
+.directions {
+    flex-grow: 2;
+}
+
+.line_block {
+    position: relative;
+    display: flex;
+    height: 35px;
+    flex-flow: column;
+    margin: 0 10px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.line_text {
+    position: absolute;
+    font-size: 27px;
+    background-color: #fff;
+    padding: 0 10px;
+    right: 30px;
+}
+
+.vertical {
     border: 1px solid transparent;
     border-right: 1px solid black;
     align-self: stretch;
 }
 
-hr.horizontal {
+.horizontal {
+    width: 100%;
     border: 1px solid transparent;
     border-bottom: 1px solid black;
     align-self: stretch;
