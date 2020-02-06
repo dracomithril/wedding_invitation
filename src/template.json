@@ -1,0 +1,24 @@
+{
+  "title": "Zaproszenie",
+  "who": {
+    "bride": "Paulina Grezel",
+    "groom": "Michał Grezel"
+  },
+  "when": {
+    "day": "piątek",
+    "date": "1.05",
+    "year": "2020",
+    "hour": "godz. 14:00"
+  },
+  "motto": "'Takich dwoje jak nas troje to nie ma ani jednego'",
+  "locations": {
+    "church": {
+      "url": "https://goo.gl/maps/bBNCYv6WXwHhY3Y4A",
+      "name": "NMP Matki Kościoła w Bolęcinie"
+    },
+    "party": {
+      "url": "https://goo.gl/maps/vkJxrxgSt5t4pxYHA",
+      "name": "'Karpik' Graboszyce,\n ul. Szlachecka 9"
+    }
+  }
+}

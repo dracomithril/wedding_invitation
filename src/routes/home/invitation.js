@@ -10,9 +10,8 @@ const Guests = ({ guests }) => {
 
 export function Invitation({ guests }) {
 	return (<section className={style.invite}>
-		<span>{'wraz z Rodzicami '}</span>
-		<span>{'maja zaszczyt zaprosić'}</span>
+		<span>{'wraz z Rodzicami maja zaszczyt zaprosić'}</span>
 		<Guests guests={guests} />
-		<span>{'na ślub kościelny i wesele'}</span>
+		<span>{'na ślub kościelny oraz przyjęcie weselne'}</span>
 	</section>);
 }

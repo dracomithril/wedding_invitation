@@ -1,0 +1,14 @@
+.block {
+    display: flex;
+    font-family: 'Black Ops One', cursive;
+    font-size: x-small;
+    justify-content: flex-end;
+}
+
+.icon {
+   height: 8px;
+    margin: 0 5px;
+}
+ .icon:hover {
+     cursor: pointer;
+ }

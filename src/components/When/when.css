@@ -1,0 +1,32 @@
+.day {
+    font-size: 35px;
+    line-height: 39px;
+}
+
+.time {
+    font-size: 21px;
+    line-height: 39px;
+
+}
+
+.date {
+    font-size: 60px;
+    line-height: 50px;
+}
+
+.year {
+    font-size: 52px;
+    line-height: 48px;
+}
+
+.block {
+    margin: 5px;
+    font-weight: normal;
+    color: #707070;
+    display: flex;
+    text-align: center;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bungee Inline', cursive;
+}
