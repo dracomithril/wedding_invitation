@@ -1,3 +1,12 @@
+## [0.5.2](https://github.com/dracomithril/wedding_invite/compare/v0.5.1...v0.5.2) (2020-02-06)
+
+
+### fix
+
+* add missing fonts ([2ebf61e](https://github.com/dracomithril/wedding_invite/commit/2ebf61e0b4c4ce1f1fd2f0f4e3e1c69a19cabc15))
+
+
+
 ## [0.5.1](https://github.com/dracomithril/wedding_invite/compare/v0.5.0...v0.5.1) (2020-02-06)
 
 
