@@ -1,3 +1,13 @@
+# [0.5.0](https://github.com/dracomithril/wedding_invite/compare/v0.4.0...v0.5.0) (2020-02-06)
+
+
+### feat
+
+* layout, styling, links ([b77ed26](https://github.com/dracomithril/wedding_invite/commit/b77ed26ccfd5b05b1382c323573bfb9e15b9c033))
+* start work on calendar ([8312cfa](https://github.com/dracomithril/wedding_invite/commit/8312cfa11543b7554b6c6455013a86a8828d431d))
+
+
+
 # [0.4.0](https://github.com/dracomithril/wedding_invite/compare/v0.3.5...v0.4.0) (2020-02-04)
 
 
