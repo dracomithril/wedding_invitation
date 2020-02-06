@@ -5,7 +5,9 @@ import { Invitation } from './invitation';
 import { When } from '../../components/When';
 import ChurchRoadmapIcon from '../../assets/svg/roadmap_church.svg';
 import PartyRoadmapIcon from '../../assets/svg/roadmap_party.svg';
+import Calendar from '../../assets/svg/calendar.svg';
 import template from '../../template';
+import { createLink } from '../../utils/googleCalendar';
 
 const Home = ({ guests }) => (
 	<div className={style.home}>
@@ -39,7 +41,13 @@ const Home = ({ guests }) => (
 				</div>
 			</div>
 		</section>
-		<WeddingDirections locations={template.locations} />
+		<section className={style.details}>
+			<WeddingDirections locations={template.locations} />
+			<a href={createLink(template.calendar)} target="_blank" rel="noopener noreferrer">
+				<Calendar style={{ height: 100 }} />
+			</a>
+		</section>
+
 		<h3>{template.motto}</h3>
 	</div>
 );

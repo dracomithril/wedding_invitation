@@ -11,6 +11,14 @@
     "hour": "godz. 14:00"
   },
   "motto": "'Takich dwoje jak nas troje to nie ma ani jednego'",
+  "calendar": {
+    "dates": "20200501T120000Z/20200502T040000Z",
+    "text": "Wesele Grezelków",
+    "location": "Kościół NMP Matki Kościoła w Bolęcinie, Kościelna 12, 32-540 Trzebinia, Polska",
+    "details": null,
+    "sf": true,
+    "ctz": "Poland/Warsaw"
+  },
   "locations": {
     "church": {
       "url": "https://goo.gl/maps/bBNCYv6WXwHhY3Y4A",

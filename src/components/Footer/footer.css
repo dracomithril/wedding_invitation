@@ -2,7 +2,7 @@
     display: flex;
     font-family: 'Black Ops One', cursive;
     font-size: x-small;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .icon {

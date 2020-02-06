@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`queryParams should be able to connect multiple keys 1`] = `"data=space&module&data2=zamarin"`;
+
+exports[`queryParams should be able to url encode string 1`] = `"data=Wesele+Grezelków"`;
+
+exports[`queryParams should create full query params 1`] = `"dates=20200501T120000Z/20200502T040000Z&text=Space+suits+warp+with+life!&location=Reproduce+patiently+like+a+bare+crew.&details&sf=true&ctz=America/New_York"`;
