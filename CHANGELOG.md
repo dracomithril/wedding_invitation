@@ -1,3 +1,12 @@
+# [0.6.0](https://github.com/dracomithril/wedding_invite/compare/v0.5.2...v0.6.0) (2020-02-06)
+
+
+### feat
+
+* add calendar link handling ([0b2ca9d](https://github.com/dracomithril/wedding_invite/commit/0b2ca9db84daa532943cc4b3d8b6275d4a77b8d3))
+
+
+
 ## [0.5.2](https://github.com/dracomithril/wedding_invite/compare/v0.5.1...v0.5.2) (2020-02-06)
 
 
