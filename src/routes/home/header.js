@@ -5,7 +5,7 @@ export function Header({ who }) {
 		<header className={style.header}>
 			<div className={style.names}>
 				<span>{who.bride}</span>
-				<span>i</span>
+				<span>&</span>
 				<span>{who.groom}</span>
 			</div>
 

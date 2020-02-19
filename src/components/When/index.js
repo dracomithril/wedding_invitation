@@ -1,9 +1,14 @@
 import style from './when.css';
+import { format } from 'date-fns';
+import { pl } from 'date-fns/locale';
 
-export const When = ({ day, date, year, hour }) => (
-	<div className={`${style.block} ${style.time}`}>
-		<span className={style.day}>{day}</span>
-		<span className={style.date}>{date}</span>
-		<span className={style.year}>{year}</span>
-		<span className={style.time}>{hour}</span>
-	</div>);
+export const When = ({ when }) => {
+	const date = new Date(when);
+	return (
+		<div className={`${style.block} ${style.time}`}>
+			<span className={style.day}>{format(date, 'EEEE', { locale: pl })}</span>
+			<span className={style.date}>{format(date, 'd.MM')}</span>
+			<span className={style.year}>{format(date, 'yyyy')}</span>
+			<span className={style.time}>{`godz. ${format(date, 'HH:mm')}`}</span>
+		</div>);
+};

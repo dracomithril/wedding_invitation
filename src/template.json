@@ -1,16 +1,11 @@
 {
   "title": "Zaproszenie",
   "who": {
-    "bride": "Paulina Grezel",
-    "groom": "Michał Grezel"
+    "bride": "Paulina",
+    "groom": "Michał"
   },
-  "when": {
-    "day": "piątek",
-    "date": "1.05",
-    "year": "2020",
-    "hour": "godz. 14:00"
-  },
-  "motto": "'Takich dwoje jak nas troje to nie ma ani jednego'",
+  "when": "2020-05-01T14:00+02:00",
+  "motto": "'Takich dwoje, jak nas troje nie ma ani jednego'",
   "calendar": {
     "dates": "20200501T120000Z/20200502T040000Z",
     "text": "Wesele Grezelków",
