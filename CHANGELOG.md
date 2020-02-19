@@ -1,3 +1,12 @@
+# [0.7.0](https://github.com/dracomithril/wedding_invite/compare/v0.6.0...v0.7.0) (2020-02-19)
+
+
+### feat
+
+* update calendar, change codding, update visual ([a245610](https://github.com/dracomithril/wedding_invite/commit/a245610095b1f3e52a515e066daea9ab112adbed))
+
+
+
 # [0.6.0](https://github.com/dracomithril/wedding_invite/compare/v0.5.2...v0.6.0) (2020-02-06)
 
 
