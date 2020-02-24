@@ -1,3 +1,12 @@
+# [0.8.0](https://github.com/dracomithril/wedding_invite/compare/v0.7.0...v0.8.0) (2020-02-24)
+
+
+### feat
+
+* styling on small devices ([c478a15](https://github.com/dracomithril/wedding_invite/commit/c478a1586b9f291921f287068dd7c3d130eade6b))
+
+
+
 # [0.7.0](https://github.com/dracomithril/wedding_invite/compare/v0.6.0...v0.7.0) (2020-02-19)
 
 
