@@ -1,3 +1,12 @@
+## [0.8.1](https://github.com/dracomithril/wedding_invite/compare/v0.8.0...v0.8.1) (2020-02-24)
+
+
+### feat
+
+* generate element key ([fddb316](https://github.com/dracomithril/wedding_invite/commit/fddb3161dfc16f5376a835867a6c243eb840472f))
+
+
+
 # [0.8.0](https://github.com/dracomithril/wedding_invite/compare/v0.7.0...v0.8.0) (2020-02-24)
 
 
