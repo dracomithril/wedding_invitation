@@ -43,7 +43,7 @@ const Home = ({ guests }) => {
 						<a href={template.locations.church.url} target="_blank" rel="noopener noreferrer">
 							<ChurchRoadmapIcon style={{ height: 70 }} />
 						</a>
-						<div className={style.details_item}>
+						<div className={style.details_item} style={{ width: '100%' }}>
 							<span>Kościół</span>
 							<span>{template.locations.church.name}</span>
 						</div>
@@ -56,7 +56,7 @@ const Home = ({ guests }) => {
 						<a href={template.locations.party.url} target="_blank" rel="noopener noreferrer">
 							<PartyRoadmapIcon style={{ height: 80 }} />
 						</a>
-						<div className={style.details_item}>
+						<div className={style.details_item} style={{ width: '100%' }}>
 							{template.locations.party.name.split('\n').map((text) => <span>{text}</span>)}
 						</div>
 					</div>}

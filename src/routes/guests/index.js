@@ -58,6 +58,9 @@ class Guests extends Component {
 				<span>
 				lista gości oddzielona nowymi liniami
 				</span>
+				<span>
+					'\n' przeniesie tekst do nowej linii
+				</span>
 				<textarea
 					className={style.list}
 					value={guestList.map(({ guestName }) => guestName).join('\n')}
