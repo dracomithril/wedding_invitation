@@ -1,3 +1,12 @@
+# [0.9.0](https://github.com/dracomithril/wedding_invite/compare/v0.8.1...v0.9.0) (2020-02-26)
+
+
+### feat
+
+* wedding attendance confirmation ([8912c6a](https://github.com/dracomithril/wedding_invite/commit/8912c6aa22e4d07ea43fcf5ef68bf1dc65bcb7e9))
+
+
+
 ## [0.8.1](https://github.com/dracomithril/wedding_invite/compare/v0.8.0...v0.8.1) (2020-02-24)
 
 
