@@ -14,6 +14,9 @@
     "sf": true,
     "ctz": "Poland/Warsaw"
   },
+  "confirmation_form": {
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSdArCEiqhRJZe7bVW_UbFSYl61dJ44XPIbYLaSZTXzDLe48Zw/viewform?usp=pp_url&entry.163751369="
+  },
   "locations": {
     "church": {
       "url": "https://goo.gl/maps/bBNCYv6WXwHhY3Y4A",

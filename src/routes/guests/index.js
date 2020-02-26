@@ -1,6 +1,6 @@
 import { Component } from 'preact';
 import { encode } from '../../utils/encoder';
-import style from './guests.css';
+import style from './guests.scss';
 
 const getGuestLink = (code) => `${location.origin}/${code}`;
 

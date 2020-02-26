@@ -1,5 +1,5 @@
 import RoadMap from '../../assets/svg/roadmap.svg';
-import style from './home.css';
+import style from './home.scss';
 
 const mapToCoordinates = ({ church, party }) => () => {
 	const churchLoc = church.name.replace(' ', '+');

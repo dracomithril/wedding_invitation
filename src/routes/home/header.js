@@ -1,4 +1,4 @@
-import style from './home.css';
+import style from './home.scss';
 
 export function Header({ who }) {
 	return (

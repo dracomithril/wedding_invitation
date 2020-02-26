@@ -43,8 +43,10 @@
   },
   "dependencies": {
     "date-fns": "^2.9.0",
+    "node-sass": "^4.13.1",
     "preact": "^10.0.1",
-    "preact-router": "^3.0.0"
+    "preact-router": "^3.0.0",
+    "sass-loader": "^7.3.1"
   },
   "husky": {
     "hooks": {

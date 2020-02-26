@@ -1,4 +1,4 @@
-import style from './footer.css';
+import style from './footer.scss';
 import Github from '../../assets/svg/github.svg';
 
 export const Footer = () => (

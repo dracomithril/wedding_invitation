@@ -1,4 +1,4 @@
-import style from './when.css';
+import style from './when.scss';
 import { format } from 'date-fns';
 import { pl } from 'date-fns/locale';
 

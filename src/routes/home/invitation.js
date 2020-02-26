@@ -1,4 +1,4 @@
-import style from './home.css';
+import style from './home.scss';
 import { genKey } from '../../utils/genKey';
 
 export function Invitation({ guests, goingToParty }) {
