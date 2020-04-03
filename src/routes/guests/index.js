@@ -13,7 +13,7 @@ class Guests extends Component {
 	};
 
 	handleDescriptionChange = ({ currentTarget }) => {
-		const guestList = currentTarget.value.split('\n').filter(l => l!=='').map((guest) => ({
+		const guestList = currentTarget.value.split('\n').filter(l => l !== '').map((guest) => ({
 			guestName: guest,
 			party: false
 		}));
@@ -21,7 +21,7 @@ class Guests extends Component {
 	};
 
 	handleLinkCreation = () => {
-		const { guestList } =this.state;
+		const { guestList } = this.state;
 		const codes = guestList.map(guest => {
 			const code = encode(JSON.stringify(guest));
 			const link = getGuestLink(code);
@@ -33,15 +33,15 @@ class Guests extends Component {
 	};
 
 	mapResults = ([guest, code, link]) => (
-		<li key={code} >
+		<li key={code}>
 			<span>{guest}</span>
 			<a href={link} target="_blank" rel="noopener noreferrer">{link}</a>
 		</li>);
 
 	handleChange = (id) => ({ currentTarget }) => {
 		this.setState(({ guestList }) => {
-			const newGuestList =  guestList.map((guest, index) => {
-				if (index!==id){
+			const newGuestList = guestList.map((guest, index) => {
+				if (index !== id) {
 					return guest;
 				}
 				return { ...guest, party: currentTarget.checked };
@@ -55,12 +55,12 @@ class Guests extends Component {
 
 		return (
 			<div className={style.container}>
-				<span>
+	      <span>
 				lista gości oddzielona nowymi liniami
-				</span>
+	      </span>
 				<span>
 					'\n' przeniesie tekst do nowej linii
-				</span>
+	      </span>
 				<textarea
 					className={style.list}
 					value={guestList.map(({ guestName }) => guestName).join('\n')}
@@ -79,7 +79,7 @@ class Guests extends Component {
 						{
 							guestList.map(({ party, guestName }, id) => (
 								<tr key={encode(guestName)}>
-									<td>{id+1}</td>
+									<td>{id + 1}</td>
 									<td>
 										<input
 											type="checkbox"

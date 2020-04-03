@@ -103,6 +103,7 @@
     text-align: center;
     color: $place_font_color;
     flex-flow: row;
+    text-decoration-line: none;
 }
 
 .details_item a {
@@ -167,4 +168,15 @@
     border-right: 1px solid transparent;
     border-bottom: 1px solid $black_color;
     align-self: stretch;
+}
+
+.warning {
+    color: orangered;
+    font-size: calc(10px + 4vh);
+    line-height: calc(10px + 6vh);
+    animation: blink 12s infinite;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Bungee Inline', cursive;
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
 }

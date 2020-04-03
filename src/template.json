@@ -4,12 +4,12 @@
     "bride": "Paulina",
     "groom": "Michał"
   },
-  "when": "2020-05-01T14:00+02:00",
+  "when": "2020-07-31T15:00+02:00",
   "motto": "'Takich dwoje, jak nas troje nie ma ani jednego'",
   "calendar": {
-    "dates": "20200501T120000Z/20200502T040000Z",
+    "dates": "20200731T120000Z/20200702T040000Z",
     "text": "Wesele Grezelków",
-    "location": "Kościół NMP Matki Kościoła w Bolęcinie, Kościelna 12, 32-540 Trzebinia, Polska",
+    "location": "Kościół NMP Matki Kościoła w Bolęcinie, Kościelna 12, 32-540 Bolęcin, Polska",
     "details": null,
     "sf": true,
     "ctz": "Poland/Warsaw"

@@ -41,31 +41,34 @@ const Home = ({ guests }) => {
 		<div className={style.home}>
 			<Header who={template.who} />
 			<Invitation guests={guestName} goingToParty={partyInvitation} />
+			<h1 className={style.warning}>!!!UWAGA ZMIANA DATY!!!</h1>
 			<section className={style.details}>
 				<When when={template.when} />
 				<hr className={style.vertical} />
 				<div className={style.directions}>
-					<div className={`${style.details_item} ${style.place}`}>
-						<a href={template.locations.church.url} target="_blank" rel="noopener noreferrer">
+					<a href={template.locations.church.url} target="_blank" rel="noopener noreferrer">
+						<div className={`${style.details_item} ${style.place}`}>
 							<ChurchRoadmapIcon style={{ height: 70 }} />
-						</a>
-						<div className={style.details_item} style={{ width: '100%' }}>
-							<span>Kościół</span>
-							<span>{template.locations.church.name}</span>
+							<div className={style.details_item} style={{ width: '100%' }}>
+								<span>Kościół</span>
+								<span>{template.locations.church.name}</span>
+							</div>
 						</div>
-					</div>
+					</a>
 					{partyInvitation && <div className={style.line_block}>
 						<hr className={style.horizontal} />
 						<span className={style.line_text}>Wesele</span>
 					</div>}
-					{partyInvitation && <div className={`${style.details_item} ${style.place}`}>
+					{partyInvitation &&
 						<a href={template.locations.party.url} target="_blank" rel="noopener noreferrer">
-							<PartyRoadmapIcon style={{ height: 80 }} />
+							<div className={`${style.details_item} ${style.place}`}>
+								<PartyRoadmapIcon style={{ height: 80 }} />
+								<div className={style.details_item} style={{ width: '100%', textDecorationLine: 'none' }}>
+									{template.locations.party.name.split('\n').map((text) => <span>{text}</span>)}
+								</div>
+							</div>
 						</a>
-						<div className={style.details_item} style={{ width: '100%' }}>
-							{template.locations.party.name.split('\n').map((text) => <span>{text}</span>)}
-						</div>
-					</div>}
+					}
 				</div>
 			</section>
 			<section className={`${style.details} ${style.interactions}`}>
@@ -84,7 +87,7 @@ const Home = ({ guests }) => {
 					className={style.directions__btn}
 					onClick={confirmationFormRedirect(template.confirmation_form.url, guestName)}
 				>
-					<SpeakIcon style={{ height: 100 }} />
+				  <SpeakIcon style={{ height: 100 }} />
 					daj nam znać
 				</button>}
 			</section>

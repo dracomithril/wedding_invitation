@@ -11,19 +11,19 @@ export default class App extends Component {
 	 *	@param {string} event.url	The newly routed URL
 	 */
 	handleRoute = event => {
-		this.currentUrl = event.url;
+	  this.currentUrl = event.url;
 	};
 
 	render() {
-		return (
-			<div id="app">
-				<Router onChange={this.handleRoute}>
-					<Guests path="/guests" />
-					<Home path="/" />
-					<Home path="/:guests" />
-				</Router>
-				<Footer />
-			</div>
-		);
+	  return (
+	    <div id="app">
+	      <Router onChange={this.handleRoute}>
+	        <Guests path="/guests" />
+	        <Home path="/" />
+	        <Home path="/:guests" />
+	      </Router>
+	      <Footer />
+	    </div>
+	  );
 	}
 }
