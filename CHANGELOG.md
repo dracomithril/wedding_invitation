@@ -1,3 +1,12 @@
+# [0.10.0](https://github.com/dracomithril/wedding_invite/compare/v0.9.0...v0.10.0) (2020-04-03)
+
+
+### feat
+
+* date change ([c07e3ef](https://github.com/dracomithril/wedding_invite/commit/c07e3ef1d60441bd3922e879aee5fc4065c35256))
+
+
+
 # [0.9.0](https://github.com/dracomithril/wedding_invite/compare/v0.8.1...v0.9.0) (2020-02-26)
 
 
