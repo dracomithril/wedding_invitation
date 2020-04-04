@@ -1,3 +1,12 @@
+## [0.10.1](https://github.com/dracomithril/wedding_invite/compare/v0.10.0...v0.10.1) (2020-04-04)
+
+
+### fix
+
+* package-lock.json ([de8cc7a](https://github.com/dracomithril/wedding_invite/commit/de8cc7a8892b36c6481cbdd0d63c89501ee0cb51))
+
+
+
 # [0.10.0](https://github.com/dracomithril/wedding_invite/compare/v0.9.0...v0.10.0) (2020-04-03)
 
 
