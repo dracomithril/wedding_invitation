@@ -1,3 +1,12 @@
+# [0.11.0](https://github.com/dracomithril/wedding_invite/compare/v0.10.1...v0.11.0) (2020-06-18)
+
+
+### feat
+
+* add guest list by id ([e2d613a](https://github.com/dracomithril/wedding_invite/commit/e2d613a7d2e5afebda0724f6c7ac05a12bbebabf))
+
+
+
 ## [0.10.1](https://github.com/dracomithril/wedding_invite/compare/v0.10.0...v0.10.1) (2020-04-04)
 
 
