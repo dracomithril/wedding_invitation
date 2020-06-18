@@ -8,19 +8,17 @@ import PartyRoadmapIcon from '../../assets/svg/roadmap_party.svg';
 import SpeakIcon from '../../assets/svg/speak.svg';
 import Calendar from '../../assets/svg/calendar.svg';
 import template from '../../template';
+import guestsList from '../../guestsList.json';
 import { decode } from '../../utils/encoder';
 import { DEFAULT_GUEST_NAME } from '../../constants';
 import { createLink, getFormLink } from '../../utils/links';
 
 function getGuestInfo(guests) {
 	try {
-		return JSON.parse(decode(guests));
+		return JSON.parse(decode(guests)).guestName;
 	}
 	catch (e) {
-		return {
-			guestName: DEFAULT_GUEST_NAME,
-			party: false
-		};
+		return  DEFAULT_GUEST_NAME;
 	}
 }
 
@@ -33,9 +31,16 @@ const confirmationFormRedirect = (url,guestName) => () => {
 	const formUrl = getFormLink({ url,name: guestName });
 	window.open(formUrl,'_blank');
 };
+const partyInvitation = true;
 
-const Home = ({ guests }) => {
-	const { guestName, party: partyInvitation } = getGuestInfo(guests);
+const Home = ({ guests, id }) => {
+	let guestName = DEFAULT_GUEST_NAME;
+	if (guests){
+		guestName = guestsList[guests] || getGuestInfo(guests);
+	}
+	if (id) {
+		guestName = guestsList[id] || DEFAULT_GUEST_NAME;
+	}
 
 	return (
 		<div className={style.home}>
@@ -91,7 +96,7 @@ const Home = ({ guests }) => {
 					daj nam znać
 				</button>}
 			</section>
-			{partyInvitation && <span className={style.condition}>{`Prosimy o potwierdzenie przybycia do dnia 18.04.2020 roku`}</span>}
+			{partyInvitation && <span className={style.condition}>{`Prosimy o potwierdzenie przybycia do dnia 4.07.2020 roku`}</span>}
 			<h3>{template.motto}</h3>
 		</div>
 	);

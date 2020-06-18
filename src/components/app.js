@@ -1,7 +1,7 @@
-import Home from '../routes/home';
-import { Router } from 'preact-router';
-import Guests from '../routes/guests';
 import { Component } from 'preact';
+import { Router } from 'preact-router';
+import Home from '../routes/home';
+import Guests from '../routes/guests';
 import { Footer } from './Footer';
 
 export default class App extends Component {
@@ -21,6 +21,7 @@ export default class App extends Component {
 	        <Guests path="/guests" />
 	        <Home path="/" />
 	        <Home path="/:guests" />
+	        <Home path="/gosc/:id" />
 	      </Router>
 	      <Footer />
 	    </div>
