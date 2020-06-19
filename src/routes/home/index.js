@@ -46,7 +46,6 @@ const Home = ({ guests, id }) => {
 		<div className={style.home}>
 			<Header who={template.who} />
 			<Invitation guests={guestName} goingToParty={partyInvitation} />
-			<h1 className={style.warning}>!!!UWAGA ZMIANA DATY!!!</h1>
 			<section className={style.details}>
 				<When when={template.when} />
 				<hr className={style.vertical} />
