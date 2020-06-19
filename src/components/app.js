@@ -4,8 +4,6 @@ import Home from '../routes/home';
 import Guests from '../routes/guests';
 import { Footer } from './Footer';
 
-console.log(`%ccurrent app version: ${process.env.VERSION}`, `font-size: 25; color: green;`);
-window.version = process.env.VERSION || 'nope';
 
 export default class App extends Component {
 
@@ -16,6 +14,11 @@ export default class App extends Component {
 	handleRoute = event => {
 	  this.currentUrl = event.url;
 	};
+
+	componentDidMount() {
+		console.log(`%ccurrent app version: ${process.env.VERSION}`, `font-size: 25; color: green;`);
+		window.wedding_invite = { version: process.env.VERSION };
+	}
 
 	render() {
 	  return (
