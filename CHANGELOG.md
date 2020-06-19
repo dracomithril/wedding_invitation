@@ -1,3 +1,12 @@
+# [0.12.0](https://github.com/dracomithril/wedding_invite/compare/v0.11.1...v0.12.0) (2020-06-19)
+
+
+### feat
+
+* add additional icons ([ae7e836](https://github.com/dracomithril/wedding_invite/commit/ae7e8361052369c1ce1c1e551c31e58ad7453a1f))
+
+
+
 ## [0.11.1](https://github.com/dracomithril/wedding_invite/compare/v0.11.0...v0.11.1) (2020-06-19)
 
 
