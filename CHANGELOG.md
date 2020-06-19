@@ -1,3 +1,13 @@
+## [0.11.1](https://github.com/dracomithril/wedding_invite/compare/v0.11.0...v0.11.1) (2020-06-19)
+
+
+### fix
+
+* change language to pl, update packages ([6073346](https://github.com/dracomithril/wedding_invite/commit/60733462a7d0466c816c5d62e33a74c7315b18f6))
+* change language to pl, update packages, app version ([8f8072d](https://github.com/dracomithril/wedding_invite/commit/8f8072d710383b568d3a98b29ba1dcb6d62741c2))
+
+
+
 # [0.11.0](https://github.com/dracomithril/wedding_invite/compare/v0.10.1...v0.11.0) (2020-06-18)
 
 
