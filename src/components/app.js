@@ -4,6 +4,9 @@ import Home from '../routes/home';
 import Guests from '../routes/guests';
 import { Footer } from './Footer';
 
+console.log(`%ccurrent app version: ${process.env.VERSION}`, `font-size: 25; color: green;`);
+window.version = process.env.VERSION || 'nope';
+
 export default class App extends Component {
 
 	/** Gets fired when the route changes.
