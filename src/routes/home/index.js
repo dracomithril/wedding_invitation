@@ -95,7 +95,9 @@ const Home = ({ guests, id }) => {
 					daj nam znać
 				</button>}
 			</section>
-			{partyInvitation && <span className={style.condition}>{`Prosimy o potwierdzenie przybycia do dnia 4.07.2020 roku`}</span>}
+			<span className={style.explanation}>{'Będzie nam niezmiernie miło jeśli pomimo wciąż panującej pandemii zechcecie nam towarzyszyć.'}</span>
+			<span className={style.condition}>{`Prosimy o potwierdzenie przybycia do dnia 4.07.2020 roku`}</span>
+			<span className={style.explanation}>{'W trosce o Wasze zdrowie postaramy się o rozsądek i zapewnienie środków bezpieczeństwa.'}</span>
 			<h3>{template.motto}</h3>
 		</div>
 	);

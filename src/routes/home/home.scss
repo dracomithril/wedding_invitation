@@ -75,9 +75,16 @@
     align-items: center;
 }
 
-.condition {
+.explanation {
     font-size: large;
     color: $secondary_color;
+    font-weight: bold;
+    text-align: center;
+}
+
+.condition {
+    font-size: large;
+    color: $black_color;
     font-weight: bold;
     text-align: center;
 }
