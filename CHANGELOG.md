@@ -1,3 +1,12 @@
+## [0.13.1](https://github.com/dracomithril/wedding_invite/compare/v0.13.0...v0.13.1) (2020-06-29)
+
+
+### feat
+
+* fix to guest list ([187dbe0](https://github.com/dracomithril/wedding_invite/commit/187dbe0c5c98e6170801cc0420f40b66001d25b9))
+
+
+
 # [0.13.0](https://github.com/dracomithril/wedding_invite/compare/v0.12.0...v0.13.0) (2020-06-25)
 
 
