@@ -33,14 +33,21 @@ const confirmationFormRedirect = (url,guestName) => () => {
 };
 const partyInvitation = true;
 
-const Home = ({ guests, id }) => {
+const Home = ({ guests ='', id ='' }) => {
 	let guestName = DEFAULT_GUEST_NAME;
-	if (guests){
-		guestName = guestsList[guests] || getGuestInfo(guests);
+	try {
+		if (guests){
+			guestName = guestsList[guests.toLowerCase()] || getGuestInfo(guests);
+		}
+		if (id) {
+			guestName = guestsList[id.toLowerCase()] || DEFAULT_GUEST_NAME;
+		}
 	}
-	if (id) {
-		guestName = guestsList[id] || DEFAULT_GUEST_NAME;
+	catch (e) {
+		console.error(e.message);
+		guestName = DEFAULT_GUEST_NAME;
 	}
+
 
 	return (
 		<div className={style.home}>
