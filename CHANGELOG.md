@@ -1,3 +1,18 @@
+# [0.14.0](https://github.com/dracomithril/wedding_invite/compare/v0.13.1...v0.14.0) (2020-07-27)
+
+
+### chore
+
+* gitignore ([f92d2cf](https://github.com/dracomithril/wedding_invite/commit/f92d2cf133aa25e858f29d54c3985e1bc38b3ea0))
+
+### feat
+
+* add information about accommodation ([4939a8e](https://github.com/dracomithril/wedding_invite/commit/4939a8e12384727ee0fe9ef9305d1a7248345f38))
+* change guest list ([9c8ba29](https://github.com/dracomithril/wedding_invite/commit/9c8ba29766da4491b8904ba11a9dcc0994fa02af))
+* fix to guest list ([4638521](https://github.com/dracomithril/wedding_invite/commit/4638521ed5959d7e4488298419e5c1deec36da79))
+
+
+
 ## [0.13.1](https://github.com/dracomithril/wedding_invite/compare/v0.13.0...v0.13.1) (2020-06-29)
 
 
