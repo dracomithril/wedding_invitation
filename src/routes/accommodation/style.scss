@@ -1,0 +1,22 @@
+@import "../../style/consts";
+
+.base {
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media (min-width: 500px){
+  .base {
+    max-width: 500px;
+  }
+}
+
+.image {
+  mix-blend-mode: multiply;
+  height: 50px;
+}

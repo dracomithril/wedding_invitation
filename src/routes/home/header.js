@@ -1,6 +1,9 @@
 import style from './home.scss';
+import template from '../../template';
 
-export function Header({ who }) {
+const { who } = template;
+
+export function Header() {
 	return (
 		<header className={style.header}>
 			<div className={style.names}>

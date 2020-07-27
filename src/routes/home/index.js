@@ -1,3 +1,4 @@
+import React from 'preact/compat';
 import style from './home.scss';
 import { WeddingDirections } from './wedding_directions';
 import { Header } from './header';
@@ -51,7 +52,7 @@ const Home = ({ guests ='', id ='' }) => {
 
 	return (
 		<div className={style.home}>
-			<Header who={template.who} />
+			<Header />
 			<Invitation guests={guestName} goingToParty={partyInvitation} />
 			<section className={style.details}>
 				<When when={template.when} />
